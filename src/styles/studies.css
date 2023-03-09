@@ -1,0 +1,30 @@
+.containerStudies {
+    font-family: 'Oxygen';
+    width: 100%;
+    color: white;
+}
+
+.bg-study {
+    width: 100%;
+    padding: 10px;
+    background-color: #ced4da;
+    /* background-position: center; */
+    background-image: url("../images/leaf.jpg");
+}
+
+.books {
+    width: 100px;
+    border: 2px solid black;
+}
+
+.containerStudies h2 {
+    font-weight: 600;
+}
+
+.containerStudies h4 {
+    font-weight: 600;
+}
+
+.containerStudies img {
+    border-radius: 50%;
+}

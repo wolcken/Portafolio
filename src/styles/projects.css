@@ -1,0 +1,80 @@
+.containerProjects {
+    padding: 1%;
+    background-image: url("../images/plant.jpg");
+    color: white;
+}
+
+/*Carrusel*/
+.containerCarrusel {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1% 10%;
+}
+
+.d-block {
+    height: 60vh;
+    border-radius: 20px;
+}
+
+/*Cards*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 1%;
+    width: 400px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-text {
+    font-size: 80%;
+}
+
+.contTech {
+    margin: 10px 0;
+}
+
+.tech {
+    background-color: #adb5bd;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.card-link {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: white;
+}
+
+@media (max-width: 640px) {
+
+    .containerCarrusel {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .d-block {
+        height: 40vh;
+    }
+
+    .card {
+        margin: 1%;
+        width: 300px;
+        font-size: 70%;
+    }
+    
+    .card-img-top {
+        height: 250px;
+    }
+}
