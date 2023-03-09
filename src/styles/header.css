@@ -1,25 +1,15 @@
 #offcanvasNavbar-expand-md {
     color: gray;
     background-color: rgb(33,37,41);
+    height: 160px;
 }
 
-.nav-link a, .dropdown-item a {
-    color: rgba(255, 255, 255, 0.55);
+.navbar-nav a {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0 10px;
 }
 
-.dropdown-menu.show {
-    background-color: rgb(33,37,41);
-}
-
-.nav-link a:hover {
+.navbar-nav a:hover {
     color: rgba(255, 255, 255, 0.75);
-}
-
-.dropdown-item a:hover {
-    color: rgb(33,37,41);
-}
-
-.dropdown-menu.show a:active {
-    background-color: rgb(33,37,41);
 }
