@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -28,18 +29,18 @@ const Header = () => {
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <Nav.Link  href="/">Home</Nav.Link>
-                                    <Nav.Link href="/projects">Projects</Nav.Link>
+                                    <Nav.Link> <NavLink to={'/'}>Home</NavLink> </Nav.Link>
+                                    <Nav.Link> <NavLink to={'/projects'}>Projects</NavLink> </Nav.Link>
                                     <NavDropdown
                                         title="About"
                                         drop='start'
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                                     >
-                                        <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
-                                        <NavDropdown.Item disabled href="/hobbies">Hobbies</NavDropdown.Item>
+                                        <NavDropdown.Item> <NavLink to={'/contact'}>Contact</NavLink> </NavDropdown.Item>
+                                        <NavDropdown.Item disabled> <NavLink to={'/hobbies'}>Hobbies</NavLink> </NavDropdown.Item>
                                         <NavDropdown.Divider />
-                                        <NavDropdown.Item href="/portafolio-wolcken/studies">
-                                            Studies
+                                        <NavDropdown.Item >
+                                            <NavLink to={'/studies'}>Studies</NavLink>
                                         </NavDropdown.Item>
                                     </NavDropdown>
                                 </Nav>

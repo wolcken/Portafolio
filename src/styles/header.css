@@ -2,3 +2,24 @@
     color: gray;
     background-color: rgb(33,37,41);
 }
+
+.nav-link a, .dropdown-item a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+}
+
+.dropdown-menu.show {
+    background-color: rgb(33,37,41);
+}
+
+.nav-link a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-item a:hover {
+    color: rgb(33,37,41);
+}
+
+.dropdown-menu.show a:active {
+    background-color: rgb(33,37,41);
+}
