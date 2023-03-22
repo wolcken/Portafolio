@@ -4,6 +4,15 @@
     height: 160px;
 }
 
+.navbar-brand a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
 .navbar-nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.55);

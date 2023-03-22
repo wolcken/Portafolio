@@ -12,7 +12,7 @@ const Header = () => {
             {['md'].map((expand) => (
                 <Navbar key={expand} bg="dark" variant='dark' expand={expand} className="mb-0">
                     <Container fluid>
-                        <Navbar.Brand href="/">Wolcken</Navbar.Brand>
+                        <Navbar.Brand> <NavLink to={'/'}>Wolcken</NavLink> </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
