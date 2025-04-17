@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: 'Observatorio',
       subtitle: 'Observatorio de Trata de Personas',
-      description: 'Pork helps manage purchases, sales, costs, and staff, automatically calculating the daily price per kilo. Designed to optimize meat distribution operations.',
+      description: 'Pagina Web del Observatorio de Trata de Personas, definiciones y legislaciones, sección de desaparecidos',
       image: `${observatorio}`,
       tech: ["Wordpress", "Oxygen", "JavaScript", "Css", "PHP"],
       linkUrl: 'https://observatoriotratabolivia.org/',
@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: 'Cecasem',
       subtitle: 'Centro de Capacitación y Servicio para la Integración de la Mujer',
-      description: 'Pork helps manage purchases, sales, costs, and staff, automatically calculating the daily price per kilo. Designed to optimize meat distribution operations.',
+      description: 'Pagina Web principal de la ONG Cecasem, misión, visión y ejes temáticos',
       image: `${cecasem}`,
       tech: ["Wordpress", "Oxygen", "JavaScript", "Css", "PHP"],
       linkUrl: 'https://cecasem.com/',
