@@ -10,10 +10,68 @@ import calculator from '../images/calculator-by-wolcken.png';
 import todos from '../images/todos-by-wolcken.png';
 import rick_morty from '../images/rick&morty-by-wolcken.png';
 import youtube from '../images/youtube-by-wolcken.png';
+import cosmos from '../images/cosmos-by-wolcken.png';
+import peps from '../images/peps-by-wolcken.png';
+import assets from '../images/assets-by-wolcken.png';
+import pork from '../images/pork-by-wolcken.png';
+import cecasem from '../images/cecasem-by-wolcken.png';
+import observatorio from '../images/observatorio-by-wolcken.png';
 
 const Projects = () => {
 
   const projects = [
+    {
+      title: 'Observatorio',
+      subtitle: 'Observatorio de Trata de Personas',
+      description: 'Pork helps manage purchases, sales, costs, and staff, automatically calculating the daily price per kilo. Designed to optimize meat distribution operations.',
+      image: `${observatorio}`,
+      tech: ["Wordpress", "Oxygen", "JavaScript", "Css", "PHP"],
+      linkUrl: 'https://observatoriotratabolivia.org/',
+    },
+    {
+      title: 'Cecasem',
+      subtitle: 'Centro de Capacitación y Servicio para la Integración de la Mujer',
+      description: 'Pork helps manage purchases, sales, costs, and staff, automatically calculating the daily price per kilo. Designed to optimize meat distribution operations.',
+      image: `${cecasem}`,
+      tech: ["Wordpress", "Oxygen", "JavaScript", "Css", "PHP"],
+      linkUrl: 'https://cecasem.com/',
+    },
+    {
+      title: 'Pork',
+      subtitle: 'Management system for pork meat distribution',
+      description: 'Pork helps manage purchases, sales, costs, and staff, automatically calculating the daily price per kilo. Designed to optimize meat distribution operations.',
+      image: `${pork}`,
+      tech: ["React", "JavaScript", "Css", "Html", "Firebase"],
+      linkUrl: 'https://pork-sigma.vercel.app/',
+      repositorio: 'https://github.com/wolcken/Pork'
+    },
+    {
+      title: 'Assets',
+      subtitle: 'Asset management system for CECASEM',
+      description: 'A platform to manage fixed assets throughout their lifecycle. It registers, categorizes, calculates depreciation, and generates detailed reports for efficient administration.',
+      image: `${assets}`,
+      tech: ["React", "JavaScript", "Css", "Html", "Firebase"],
+      linkUrl: 'https://assets-cecasem.vercel.app/',
+      repositorio: 'https://github.com/wolcken/Assets'
+    },
+    {
+      title: 'Peps',
+      subtitle: 'Pharmacy control system using PEPS method',
+      description: 'System to manage pharmacy inventory using the PEPS method. It handles entries, exits, supplier and item records, and generates detailed reports and Kardex history.',
+      image: `${peps}`,
+      tech: ["React", "JavaScript", "Css", "Html"],
+      linkUrl: 'https://peps-sable.vercel.app/',
+      repositorio: 'https://github.com/wolcken/Peps'
+    },
+    {
+      title: 'Cosmos',
+      subtitle: 'Web-based management and inventory system for Ferretería Cosmos',
+      description: 'Comprehensive solution for managing products, suppliers, and transactions. Automates Weighted Average Cost (WAC) calculation to optimize inventory, pricing, and strategic decisions.',
+      image: `${cosmos}`,
+      tech: ["React", "JavaScript", "Css", "Html"],
+      linkUrl: 'https://cosmos-tau.vercel.app/',
+      repositorio: 'https://github.com/wolcken/Cosmos'
+    },
     {
       title: 'Movies',
       subtitle: 'The Movie Database API Consumption',

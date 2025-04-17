@@ -19,7 +19,11 @@ const Cards = (props) => {
               })}
             </div>
             <Card.Link href={project.linkUrl}>Ver Aqui</Card.Link>
-            <Card.Link href={project.repositorio}>Repositorio</Card.Link>
+            {project.repositorio ?
+              <Card.Link href={project.repositorio}>Repositorio</Card.Link>
+              :
+              null
+            }
           </Card.Body>
         </Card>
       ))}
